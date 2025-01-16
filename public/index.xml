@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welkom on E.S.R.G. Knights of the Kitchen Table</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Welkom on E.S.R.G. Knights of the Kitchen Table</description>
+    <generator>Hugo</generator>
+    <language>nl</language>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Het schaduwbestuur bestaat niet</title>
+      <link>//localhost:1313/schaduwbestuur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/schaduwbestuur/</guid>
+      <description>&lt;p&gt;Er is hier niks te vinden . . .&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
