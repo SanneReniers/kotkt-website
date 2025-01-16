@@ -19,7 +19,7 @@ title: Welkom
    button-text-1="Sign up!"
    button-text-2="More info"
 
-   video-url="images/mono.mp4"
+   video-url="images/Mono.mp4"
 
    class-name="slide-boardgames"
 >}}
@@ -45,7 +45,7 @@ title: Welkom
    button-text-1="Sign up!"
    button-text-2="More info"
 
-   video-url="images/mono.mp4"
+   video-url="images/Mono.mp4"
 
    class-name="slide-larp"
 >}}
