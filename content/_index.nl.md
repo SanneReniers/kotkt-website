@@ -19,7 +19,7 @@ title: Welkom
    button-text-1="Sign up!"
    button-text-2="More info"
 
-   video-url="images/Mono.MP4"
+   video-url="images/IW blackwhite.png"
 
    class-name="slide-boardgames"
 >}}
@@ -32,7 +32,7 @@ title: Welkom
    button-text-1="Sign up!"
    button-text-2="More info"
 
-   video-url="images/Mono.MP4"
+   video-url="images/IW blackwhite.png"
 
    class-name="slide-roleplay"
 >}}
@@ -45,7 +45,7 @@ title: Welkom
    button-text-1="Sign up!"
    button-text-2="More info"
 
-   video-url="images/Mono.MP4"
+   video-url="images/IW blackwhite.png"
 
    class-name="slide-larp"
 >}}
