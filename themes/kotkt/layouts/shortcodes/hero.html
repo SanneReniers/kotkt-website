@@ -1,0 +1,27 @@
+    <!-- Section : Hero -->
+    <section class="hero">
+        <div class="hero__sliders {{.Get "class-name"}}">
+            <main class="hero__content">
+                <h4 class="hero__subtitle subtitle">{{ .Get "subtitle" }}</h4>
+                <h1 class="hero__title title">{{ .Get "title" }}</h1>
+                <p class="hero__paragraph paragraph">{{ .Get "paragraph" }}</p>
+
+                <div class="hero__buttons">
+                    <a target="_blank" href="https://app.kotkt.nl/join/"><button class="hero__button" type="button">{{ .Get "button-text-1" }}</button></a>
+                    <a href="#about-us"><button class="hero__button" type="button">{{ .Get "button-text-2" }}</button></a>
+                </div>
+            </main>
+
+            <div class="hero__shields">
+                <img class="hero__shield-image" src="images/yellow shield.png">
+                <div class="hero__shield-video">
+                    <video autoplay muted loop><source src="{{.Get "video-url"}}" type="video/mp4"></video>
+                </div>
+            </div>
+        </div>
+
+        <img class="hero__image-meeple" src="images/meeple_white.png">
+        <img class="hero__image-d20" src="images/d20 white.png">
+
+    </section>
+

@@ -1,0 +1,17 @@
+<section class="article-quote" id="{{ .Get "link"}}">
+
+    <img class="article-quote__dice" src="images/dice__dark.png">
+    
+    <aside class="article-quote__container">
+        <h2 class="article-quote__title title-quote">{{ .Get "quote" | safeHTML }}</h2>
+        <div class="article-quote__divider"></div>
+        <h3 class="article-quote__subtitle subtitle-small">{{ .Get "title" | safeHTML }}</h3>
+    </aside>
+
+    <article class="article-quote__content">
+        <p class="article-quote__paragraph paragraph">
+            {{ .Get "content" | safeHTML }}
+        </p>
+    </article>
+
+</section>

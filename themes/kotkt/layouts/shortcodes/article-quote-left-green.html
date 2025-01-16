@@ -1,0 +1,18 @@
+<section class="article-quote-left-green" id="{{ .Get "link"}}">
+    
+    <aside class="article-quote-left-green__container">
+        <h2 class="article-quote-left-green__title title-quote">{{ .Get "quote" | safeHTML }}</h2>
+        <div class="article-quote-left-green__divider"></div>
+        <h3 class="article-quote-left-green__subtitle subtitle-small">{{ .Get "title" | safeHTML }}</h3>
+    </aside>
+
+    <article class="article-quote-left-green__content">
+        <p class="article-quote-left-green__paragraph paragraph">
+            {{ .Get "content" | safeHTML }}
+        </p>
+    </article>
+
+    <img class="article-quote-left-green__d20" src="images/d20 white.png">
+    <img class="article-quote-left-green__meeple" src="images/meeple white.png">
+
+</section>

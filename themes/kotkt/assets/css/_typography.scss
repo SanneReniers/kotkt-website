@@ -1,0 +1,64 @@
+.title {
+    font-family: "pieces of eight";
+    text-transform: uppercase;
+    font-size: 135px;
+    line-height: 120px;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+}
+
+.subtitle {
+    color: var(--yellow);
+    font-family: "Tw Cen MT Condensed Extra Bold";
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.paragraph {
+    color: white;
+    font-family: "poppins";
+    font-size: 15px;
+
+    a {
+        color: var(--yellow);
+        font-weight: 900;
+        text-decoration: none;
+    }
+}
+
+.active {
+    color: var(--yellow);
+}
+
+.title-quote {
+    font-family: "pieces of eight";
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 120px;
+    font-weight: normal;
+    color: var(--dark-green);
+    margin: 0;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.subtitle-small {
+    color: var(--dark-green);
+    font-family: "Tw Cen MT Condensed Extra Bold";
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.subtitle-picture {
+    font-family: "pieces of eight";
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+    color: var(--dark-green);
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1;
+}

@@ -1,0 +1,55 @@
+.article-quote-left-green {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3vw 10vw;
+    justify-content: space-between;
+    background: rgb(8,32,2); background: linear-gradient(128deg, rgba(8,32,2,1) 42%, rgba(0,88,12,1) 85%);
+    
+    span {
+        border-bottom: 7px solid var(--yellow);
+        display: inline-block;
+        height: 35px;
+        position: absolute;
+        width: 7%;
+    }
+
+    .article-quote-left-green__divider {
+        border-top: 7px solid var(--yellow);
+        width: 10vw;
+        margin-bottom: 20px;
+    }
+
+    .article-quote-left-green__content {
+        width: 50%;
+    }
+
+    .article-quote-left-green__dice {
+        position: absolute;
+        width: 38%;
+        left: -15%;
+        margin-top: 20%;
+    }
+
+    .article-quote-left-green__subtitle {
+        color: var(--white)!important;
+    }
+
+    .article-quote-left-green__title {
+        color: var(--white);
+    }
+
+    .article-quote-left-green__meeple {
+        position: absolute;
+        left: -5%;
+        width: 20vw;
+        margin-top: 7%;
+    }
+
+    .article-quote-left-green__d20 {
+        position: absolute;
+        width: 30%;
+        right: -8%;
+        margin-top: 10%;
+    }
+}

@@ -1,0 +1,19 @@
+<section class="cta__sign-up" id="{{ .Get "link"}}">
+
+    <img class="cta__sign-up__dice" src="images/dice__dark.png">
+    
+    <aside class="cta__sign-up__container">
+        <h2 class="cta__sign-up__title title-quote">{{ .Get "quote" | safeHTML }}</h2>
+        <div class="cta__sign-up__divider"></div>
+        <h3 class="cta__sign-up__subtitle subtitle-small">{{ .Get "title" | safeHTML }}</h3>
+    </aside>
+
+    <article class="cta__sign-up__content">
+        <p class="cta__sign-up__paragraph paragraph">
+            {{ .Get "content" | safeHTML }}
+        </p>
+
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScZYmRqBUk4cxl5sZ35gbewRYzoto8FY1PIKljFFj_WqhQn5Q/viewform"><button type="button" class="cta__sign-up__button button">{{ .Get "button-txt" }}</button></a>
+    </article>
+
+</section>

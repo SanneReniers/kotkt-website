@@ -1,0 +1,36 @@
+.article-quote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3vw 10vw;
+    justify-content: space-between;
+    
+    span {
+        border-bottom: 7px solid var(--yellow);
+        display: inline-block;
+        height: 35px;
+        position: absolute;
+        width: 7%;
+    }
+
+    .article-quote__divider {
+        border-top: 7px solid var(--yellow);
+        width: 10vw;
+        margin-bottom: 20px;
+    }
+
+    .article-quote__content {
+        width: 50%;
+
+        .article-quote__paragraph {
+            color: var(--dark-green);
+        }
+    }
+
+    .article-quote__dice {
+        position: absolute;
+        width: 38%;
+        left: -15%;
+        margin-top: 20%;
+    }
+}

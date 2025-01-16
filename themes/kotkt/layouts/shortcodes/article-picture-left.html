@@ -1,0 +1,13 @@
+<section class="article-picture-left" id="{{ .Get "link"}}">
+
+    <aside class="article-picture-left__container">
+        <img class="article-picture-left__image" src="{{ .Get "image-url"}}">
+    </aside>
+
+    <article class="article-picture-left__content">
+        <h3 class="article-picture-left__subtitle subtitle-picture">{{ .Get "title" | safeHTML }}</h3>
+        <p class="article-picture-left__paragraph paragraph">
+            {{ .Get "content" | safeHTML }}
+        </p>
+    </article>
+</section>
